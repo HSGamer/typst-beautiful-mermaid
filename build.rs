@@ -29,8 +29,8 @@ fn compile_to_bytecode(in_path: &Path, out_path: &Path) -> Result<()> {
         let module = rquickjs::Module::declare(ctx.clone(), "mermaid.js", source)
             .context("Failed to declare QuickJS module")?;
         let options = rquickjs::module::WriteOptions {
-            strip_debug: false,
-            strip_source: false,
+            strip_debug: true,
+            strip_source: true,
             ..Default::default()
         };
 
