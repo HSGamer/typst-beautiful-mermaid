@@ -1,0 +1,16 @@
+[package]
+name = "beautiful-mermaid"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["hsgamer"]
+license = "MIT"
+description = "Ultra-fast & DOM-independent Mermaid diagrams for Typst."
+categories = ["visualization"]
+
+repository = "https://github.com/HSGamer/typst-beautiful-mermaid"
+keywords = [
+    "mermaid",
+    "diagram",
+    "svg",
+    "visualization",
+]

@@ -1,0 +1,9 @@
+target/
+*.wasm
+tests/*.pdf
+.agents/
+skills-lock.json
+js/runtime.esm.js
+js/node_modules/
+js/mermaid.js
+js/mermaid.tmp.js
